@@ -12,8 +12,9 @@ import SwiftUI
 struct SwiftUITestApp: App {
     var body: some Scene {
         WindowGroup {
+            samplelogin()
 //            LoginScreen()
-            NavigationHeader()
+//            NavigationHeader()
         }
     }
 }

@@ -7,11 +7,13 @@ struct LoginScreen:View {
     @State var email:String  = ""
     @State var password:String  = ""
     @State var showPassword:Bool = false
+    @State private var loginSuccess: Bool = false
     
     
     var body: some View {
         
         NavigationStack {
+            
             VStack {
                 Text("Welcome, My dear user")
                     .font(Font.custom("Helvetica Neue Medium", size: 30.0))
@@ -117,6 +119,7 @@ struct LoginScreen:View {
             .toolbarBackground(Color(red: 1/255, green: 15/255, blue: 3/255), for: .navigationBar)
             .navigationBarTitleDisplayMode(.inline)
         }
+        
     }
 }
 

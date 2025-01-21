@@ -14,6 +14,7 @@
 		75F667AF2D3FDB4F00DA5910 /* LoginComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667AD2D3FDB4F00DA5910 /* LoginComponents.swift */; };
 		75F667B02D3FDB4F00DA5910 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667AE2D3FDB4F00DA5910 /* LoginScreen.swift */; };
 		75F667B62D3FE53500DA5910 /* NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667B52D3FE53500DA5910 /* NavigationHeader.swift */; };
+		75F667B82D3FFAC000DA5910 /* samplelogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667B72D3FFAC000DA5910 /* samplelogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		75F667AD2D3FDB4F00DA5910 /* LoginComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginComponents.swift; sourceTree = "<group>"; };
 		75F667AE2D3FDB4F00DA5910 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		75F667B52D3FE53500DA5910 /* NavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeader.swift; sourceTree = "<group>"; };
+		75F667B72D3FFAC000DA5910 /* samplelogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samplelogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				75F6673D2D3FCE5B00DA5910 /* myPracticeSwiftUIApp.swift */,
 				75F6673F2D3FCE5B00DA5910 /* ContentView.swift */,
+				75F667B72D3FFAC000DA5910 /* samplelogin.swift */,
 				75F667B42D3FE4D400DA5910 /* NavigationHeader */,
 				75F667AC2D3FDB3E00DA5910 /* LoginScreen1 */,
 				75F667412D3FCE5D00DA5910 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F667B62D3FE53500DA5910 /* NavigationHeader.swift in Sources */,
+				75F667B82D3FFAC000DA5910 /* samplelogin.swift in Sources */,
 				75F667AF2D3FDB4F00DA5910 /* LoginComponents.swift in Sources */,
 				75F667402D3FCE5B00DA5910 /* ContentView.swift in Sources */,
 				75F6673E2D3FCE5B00DA5910 /* myPracticeSwiftUIApp.swift in Sources */,
