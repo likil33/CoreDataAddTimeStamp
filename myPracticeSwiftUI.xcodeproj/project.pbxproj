@@ -11,13 +11,9 @@
 		75F667402D3FCE5B00DA5910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6673F2D3FCE5B00DA5910 /* ContentView.swift */; };
 		75F667422D3FCE5D00DA5910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F667412D3FCE5D00DA5910 /* Assets.xcassets */; };
 		75F667452D3FCE5D00DA5910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F667442D3FCE5D00DA5910 /* Preview Assets.xcassets */; };
-		75F667472D3FCE5D00DA5910 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667462D3FCE5D00DA5910 /* Persistence.swift */; };
-		75F6674A2D3FCE5D00DA5910 /* myPracticeSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75F667482D3FCE5D00DA5910 /* myPracticeSwiftUI.xcdatamodeld */; };
-		75F667542D3FCE5D00DA5910 /* myPracticeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667532D3FCE5D00DA5910 /* myPracticeSwiftUITests.swift */; };
-		75F6675E2D3FCE5D00DA5910 /* myPracticeSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6675D2D3FCE5D00DA5910 /* myPracticeSwiftUIUITests.swift */; };
-		75F667602D3FCE5D00DA5910 /* myPracticeSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6675F2D3FCE5D00DA5910 /* myPracticeSwiftUIUITestsLaunchTests.swift */; };
 		75F667AF2D3FDB4F00DA5910 /* LoginComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667AD2D3FDB4F00DA5910 /* LoginComponents.swift */; };
 		75F667B02D3FDB4F00DA5910 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667AE2D3FDB4F00DA5910 /* LoginScreen.swift */; };
+		75F667B62D3FE53500DA5910 /* NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F667B52D3FE53500DA5910 /* NavigationHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,15 +39,11 @@
 		75F6673F2D3FCE5B00DA5910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75F667412D3FCE5D00DA5910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F667442D3FCE5D00DA5910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		75F667462D3FCE5D00DA5910 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		75F667492D3FCE5D00DA5910 /* myPracticeSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myPracticeSwiftUI.xcdatamodel; sourceTree = "<group>"; };
 		75F6674F2D3FCE5D00DA5910 /* myPracticeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPracticeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75F667532D3FCE5D00DA5910 /* myPracticeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPracticeSwiftUITests.swift; sourceTree = "<group>"; };
 		75F667592D3FCE5D00DA5910 /* myPracticeSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPracticeSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75F6675D2D3FCE5D00DA5910 /* myPracticeSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPracticeSwiftUIUITests.swift; sourceTree = "<group>"; };
-		75F6675F2D3FCE5D00DA5910 /* myPracticeSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPracticeSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		75F667AD2D3FDB4F00DA5910 /* LoginComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginComponents.swift; sourceTree = "<group>"; };
 		75F667AE2D3FDB4F00DA5910 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		75F667B52D3FE53500DA5910 /* NavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				75F6673C2D3FCE5B00DA5910 /* myPracticeSwiftUI */,
-				75F667522D3FCE5D00DA5910 /* myPracticeSwiftUITests */,
-				75F6675C2D3FCE5D00DA5910 /* myPracticeSwiftUIUITests */,
 				75F6673B2D3FCE5B00DA5910 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,10 +94,9 @@
 			children = (
 				75F6673D2D3FCE5B00DA5910 /* myPracticeSwiftUIApp.swift */,
 				75F6673F2D3FCE5B00DA5910 /* ContentView.swift */,
+				75F667B42D3FE4D400DA5910 /* NavigationHeader */,
 				75F667AC2D3FDB3E00DA5910 /* LoginScreen1 */,
 				75F667412D3FCE5D00DA5910 /* Assets.xcassets */,
-				75F667462D3FCE5D00DA5910 /* Persistence.swift */,
-				75F667482D3FCE5D00DA5910 /* myPracticeSwiftUI.xcdatamodeld */,
 				75F667432D3FCE5D00DA5910 /* Preview Content */,
 			);
 			path = myPracticeSwiftUI;
@@ -121,23 +110,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		75F667522D3FCE5D00DA5910 /* myPracticeSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				75F667532D3FCE5D00DA5910 /* myPracticeSwiftUITests.swift */,
-			);
-			path = myPracticeSwiftUITests;
-			sourceTree = "<group>";
-		};
-		75F6675C2D3FCE5D00DA5910 /* myPracticeSwiftUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				75F6675D2D3FCE5D00DA5910 /* myPracticeSwiftUIUITests.swift */,
-				75F6675F2D3FCE5D00DA5910 /* myPracticeSwiftUIUITestsLaunchTests.swift */,
-			);
-			path = myPracticeSwiftUIUITests;
-			sourceTree = "<group>";
-		};
 		75F667AC2D3FDB3E00DA5910 /* LoginScreen1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +117,14 @@
 				75F667AE2D3FDB4F00DA5910 /* LoginScreen.swift */,
 			);
 			path = LoginScreen1;
+			sourceTree = "<group>";
+		};
+		75F667B42D3FE4D400DA5910 /* NavigationHeader */ = {
+			isa = PBXGroup;
+			children = (
+				75F667B52D3FE53500DA5910 /* NavigationHeader.swift */,
+			);
+			path = NavigationHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,10 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F667B62D3FE53500DA5910 /* NavigationHeader.swift in Sources */,
 				75F667AF2D3FDB4F00DA5910 /* LoginComponents.swift in Sources */,
-				75F667472D3FCE5D00DA5910 /* Persistence.swift in Sources */,
 				75F667402D3FCE5B00DA5910 /* ContentView.swift in Sources */,
-				75F6674A2D3FCE5D00DA5910 /* myPracticeSwiftUI.xcdatamodeld in Sources */,
 				75F6673E2D3FCE5B00DA5910 /* myPracticeSwiftUIApp.swift in Sources */,
 				75F667B02D3FDB4F00DA5910 /* LoginScreen.swift in Sources */,
 			);
@@ -290,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F667542D3FCE5D00DA5910 /* myPracticeSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F6675E2D3FCE5D00DA5910 /* myPracticeSwiftUIUITests.swift in Sources */,
-				75F667602D3FCE5D00DA5910 /* myPracticeSwiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,19 +580,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		75F667482D3FCE5D00DA5910 /* myPracticeSwiftUI.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				75F667492D3FCE5D00DA5910 /* myPracticeSwiftUI.xcdatamodel */,
-			);
-			currentVersion = 75F667492D3FCE5D00DA5910 /* myPracticeSwiftUI.xcdatamodel */;
-			path = myPracticeSwiftUI.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 75F667322D3FCE5B00DA5910 /* Project object */;
 }

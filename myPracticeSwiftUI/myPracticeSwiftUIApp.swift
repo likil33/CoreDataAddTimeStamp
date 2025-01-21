@@ -12,32 +12,9 @@ import SwiftUI
 struct SwiftUITestApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            LoginScreen()
+//            LoginScreen()
+            NavigationHeader()
         }
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-//@main
-//struct myPracticeSwiftUIApp: App {
-//    let persistenceController = PersistenceController.shared
-//
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-//        }
-//    }
-//}
