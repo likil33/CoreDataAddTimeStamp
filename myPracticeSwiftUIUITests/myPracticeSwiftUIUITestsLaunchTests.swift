@@ -1,13 +1,13 @@
 //
-//  DefaultCoreDataSwiftUIUITestsLaunchTests.swift
-//  DefaultCoreDataSwiftUIUITests
+//  myPracticeSwiftUIUITestsLaunchTests.swift
+//  myPracticeSwiftUIUITests
 //
 //  Created by Santhosh K on 21/01/25.
 //
 
 import XCTest
 
-final class DefaultCoreDataSwiftUIUITestsLaunchTests: XCTestCase {
+final class myPracticeSwiftUIUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  DefaultCoreDataSwiftUI
+//  myPracticeSwiftUI
 //
 //  Created by Santhosh K on 21/01/25.
 //

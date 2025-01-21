@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  DefaultCoreDataSwiftUI
+//  myPracticeSwiftUI
 //
 //  Created by Santhosh K on 21/01/25.
 //
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "DefaultCoreDataSwiftUI")
+        container = NSPersistentContainer(name: "myPracticeSwiftUI")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

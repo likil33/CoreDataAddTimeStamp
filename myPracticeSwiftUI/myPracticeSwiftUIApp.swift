@@ -1,6 +1,6 @@
 //
-//  DefaultCoreDataSwiftUIApp.swift
-//  DefaultCoreDataSwiftUI
+//  myPracticeSwiftUIApp.swift
+//  myPracticeSwiftUI
 //
 //  Created by Santhosh K on 21/01/25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct DefaultCoreDataSwiftUIApp: App {
+struct myPracticeSwiftUIApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
